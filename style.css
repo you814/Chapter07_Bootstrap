@@ -1,11 +1,17 @@
 .btn-outline-success{
-    color: chocolate;
-    border-color: chocolate;
+    color: #dc3545ed;
+    border-color: #dc3545ed;
 }
 
 .btn-outline-success:hover{
-    background-color: chocolate;
+    background-color: red;
     color: white;
-    border-color: chocolate;
+    border-color: red;
     /* transform: scale(2.0); */
+}
+
+.btn-primary{
+    color: white;
+    border-color: #dc3545ed;
+    background-color: #dc3545ed;
 }
