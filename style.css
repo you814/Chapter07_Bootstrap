@@ -15,3 +15,41 @@
     border-color: #dc3545ed;
     background-color: #dc3545ed;
 }
+
+footer{
+    background-color: black;
+    color: #A3A3A3;
+}
+
+.first-line{
+    border-bottom: 1px solid gray;
+}
+
+.second-line a{
+    color: #A3A3A3;
+    text-decoration: none;
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .first-ine{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid gray;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .third-line{
+        display: block;
+    }
+}
